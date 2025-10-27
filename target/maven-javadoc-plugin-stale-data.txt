@@ -1,0 +1,66 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/aarya/.m2/repository/org/openjfx/javafx-controls/20.0.2/javafx-controls-20.0.2-win.jar;C:/Users/aarya/.m2/repository/org/openjfx/javafx-graphics/20.0.2/javafx-graphics-20.0.2.jar;C:/Users/aarya/.m2/repository/org/openjfx/javafx-graphics/20.0.2/javafx-graphics-20.0.2-win.jar;C:/Users/aarya/.m2/repository/org/openjfx/javafx-base/20.0.2/javafx-base-20.0.2.jar;C:/Users/aarya/.m2/repository/org/openjfx/javafx-base/20.0.2/javafx-base-20.0.2-win.jar;C:/Users/aarya/.m2/repository/org/openjfx/javafx-fxml/20.0.2/javafx-fxml-20.0.2-win.jar;C:/Users/aarya/.m2/repository/org/openjfx/javafx-controls/20.0.2/javafx-controls-20.0.2.jar;C:/Users/aarya/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/aarya/Documents/project2-group82/JavaFiles;C:/Users/aarya/Documents/project2-group82/JavaFiles/src'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/aarya/Documents/project2-group82/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'project2-group82 1.0.0-SNAPSHOT API'
+-linksource
+-use
+-version
+-windowtitle
+'project2-group82 1.0.0-SNAPSHOT API'
+src.controller
+src.data
+src.database
+src.model
+controller
+data
+database
+model
+'C:/Users/aarya/Documents/project2-group82/JavaFiles/Main.java'
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-controls\20.0.2\javafx-controls-20.0.2-win.jar = 1760977070632
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-graphics\20.0.2\javafx-graphics-20.0.2.jar = 1760977070708
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-graphics\20.0.2\javafx-graphics-20.0.2-win.jar = 1760977071087
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-base\20.0.2\javafx-base-20.0.2.jar = 1760977070760
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-base\20.0.2\javafx-base-20.0.2-win.jar = 1760977071015
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-fxml\20.0.2\javafx-fxml-20.0.2-win.jar = 1760977071023
+C:\Users\aarya\.m2\repository\org\openjfx\javafx-controls\20.0.2\javafx-controls-20.0.2.jar = 1760977070785
+C:\Users\aarya\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar = 1760977071050
+C:\Users\aarya\Documents\project2-group82\JavaFiles\Main.java = 1761526770071
+C:\Users\aarya\Documents\project2-group82\JavaFiles = 1761526770071
+C:\Users\aarya\Documents\project2-group82\JavaFiles\src = 1761526770121
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\allclasses-index.html = 1761527626453
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\allpackages-index.html = 1761527626457
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\element-list = 1761527625744
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\help-doc.html = 1761527626517
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\index-all.html = 1761527626501
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\index.html = 1761527626413
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\Main.html = 1761527625445
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\member-search-index.js = 1761527626468
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\module-search-index.js = 1761527626461
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\overview-summary.html = 1761527626511
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\overview-tree.html = 1761527626407
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\package-search-index.js = 1761527626463
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\package-summary.html = 1761527625754
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\package-tree.html = 1761527625764
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\package-use.html = 1761527626326
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\search.html = 1761527626505
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\tag-search-index.js = 1761527626470
+C:\Users\aarya\Documents\project2-group82\target\site\apidocs\type-search-index.js = 1761527626465
