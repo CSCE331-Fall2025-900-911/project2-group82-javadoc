@@ -1,0 +1,68 @@
+name: Deploy Javadoc to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - gh-pages
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Checkout source project (if separate)
+        uses: actions/checkout@v4
+        with:
+          path: source-project
+          repository: ${{ github.repository_owner }}/project2-group82
+          
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          
+      - name: Setup Maven
+        uses: stCarolas/setup-maven@v4
+        with:
+          maven-version: 3.9.0
+          
+      - name: Build Javadoc from source project
+        working-directory: source-project
+        run: mvn clean javadoc:javadoc
+          
+      - name: Copy Javadoc to this repo
+        run: |
+          mkdir -p target/site/
+          cp -r source-project/target/site/apidocs target/site/apidocs || cp -r target/site/apidocs target/site/apidocs
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'target/site/apidocs'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
